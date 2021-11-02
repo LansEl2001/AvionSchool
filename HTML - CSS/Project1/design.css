@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto+Mono:wght@500&display=swap');
+
+/* NavBar */
+header{
+    width: 100%;
+    height: 70px;
+    background-image: url(https://img.freepik.com/free-photo/white-art-paper-background_35956-2377.jpg?size=626&ext=jpg);
+}
+ul{
+    width: auto;
+    float: left;
+    margin-top: 3px;
+}
+li{
+    display: inline-block;
+    padding: 15px 30px;
+}
+a{
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+    font-size:x-large;
+    color: black;
+}
+a:hover{
+    color: #6422b8;
+    transition: 0.5s;
+}
+
+/* First Part */
+html, #main{
+    margin: 0;
+    height: 100%;
+}
+
+.part1{
+    background-image: url(https://joesdaily.com/wp-content/uploads/2020/08/the-office-conference-room-interview-window-scaled.jpg);
+    width: 100%;
+    height: 1000px;
+    text-align: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#title{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 70px;
+    padding-top: 75px;
+    padding-right: 600px;
+    text-shadow: 2px 2px 2px grey;
+}
+
+#tribute-info{
+    font-family: "Open Sans", sans-serif;
+    padding-right: 600px;
+    font-size: 20px;
+    margin-left: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#image{
+    padding-top: 50px;
+    padding-right: 600px;
+    filter: drop-shadow(16px 16px 10px black);
+}
+
+#img-caption{
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+    font-size: 15px;
+    padding-right: 600px;
+    padding-top: 10px;
+}
+
+/* Content */
+.content{
+    height: auto;
+    width: 100%;
+    background-image: url(https://img.freepik.com/free-photo/white-art-paper-background_35956-2377.jpg?size=626&ext=jpg);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#article{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 50px;
+    text-shadow: 2px 2px 2px grey;
+}
+
+#paragraph{
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+    margin: 20px;
+}
+
+/* Part 2 */
+
+.part2{
+    background-image: url(https://i.pinimg.com/originals/dc/71/1c/dc711cc4c3ebafcd21f2a61efe8fd6cd.jpg);
+    width: 100%;
+    height: 1000px;
+    text-align: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#image2{
+    text-align: center;
+    padding-top: 250px;
+    width: 900px;
+    height: auto;
+    filter: drop-shadow(16px 16px 10px black);
+}
+
+/* Part 3 */
+
+.part3{
+    background-image: url(https://pbs.twimg.com/media/EUjK4szU0AEn88O.jpg);
+    width: 100%;
+    height: 1000px;
+    text-align: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#image3{
+    text-align: center;
+    padding-top: 250px;
+    width: 900px;
+    height: auto;
+    filter: drop-shadow(16px 16px 10px black);
+}
