@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Survey Form</title>
+</head>
+<header>
+    <h1 id="title">Event Feedback Form 📄</h1>
+    <p id="description">Thank you for joining! Please help us improve our event by filling-up the form</p>
+</header>
+<br>
+<body>
+    <form id="survey-form">
+        <div>
+            <label id="name-label" class="questions">Name</label>
+            <br>
+            <input type="text" name="name" size="20" id="name" placeholder="Enter your name">
+        </div>
+
+        <div>
+            <label id="email-label" class="questions">Email</label>
+            <br>
+            <input type="email" name="email" id="email" placeholder="Enter your email">
+        </div>
+
+        <div>
+            <label id="number-label" class="questions">Number</label>
+            <br>
+            <input type="number" name="number" id="number" min="1" max="500" placeholder="Enter your ID number">
+        </div>
+        <br>
+        <div>
+            <label class="questions">Which event did you attend?</label>
+            <select name="Event" id="dropdown">
+                <option value="Event1">Event 1 (Saturday)</option>
+                <option value="Event2">Event 2 (Sunday)</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label class="questions">How was your experience? (Rate from 1-5)</label>
+
+            <div>
+                <input type="radio" name="experience" id="1" value="1">
+                <label for="1">1 (Excellent)</label>
+            </div>
+
+            <div>
+                <input type="radio" name="experience" id="2" value="2">
+                <label for="2">2 (Good)</label>
+            </div>
+
+            <div>
+                <input type="radio" name="experience" id="3" value="3">
+                <label for="3">3 (Neutral)</label>
+            </div>
+
+            <div>
+                <input type="radio" name="experience" id="4" value="4">
+                <label for="4">4 (Needs Improvement)</label>
+            </div>
+
+            <div>
+                <input type="radio" name="experience" id="5" value="5">
+                <label for="5">5 (Bad)</label>
+            </div>
+
+        </div>
+        <br>
+        <div>
+            <label for="suggestions" class="questions">Comments</label>
+
+            <div>
+                <textarea name="suggestions" id="suggestions">Tell us more about your experience here!</textarea>
+            </div>
+        </div>
+    
+        <div>
+            <label class="questions">Where did you find our event?</label>
+            <div>
+                <input type="checkbox" name="find" id="friend" value="friend">
+                <label for="friend">Friend</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="find" id="facebook" value="facebook">
+                <label for="facebook">Facebook</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="find" id="twitter" value="twitter">
+                <label for="twitter">Twitter</label>
+            </div>
+            
+            <div>
+                <input type="checkbox" name="find" id="instagram" value="instagram">
+                <label for="instagram">Instagram</label>
+            </div>
+        </div>
+        <br>
+        <div>
+            <input type="submit" name="button" value="Submit" id="submit">
+        </div>
+        
+        
+
+    </form>
+</body>
+</html>
